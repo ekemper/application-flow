@@ -1,0 +1,22 @@
+name: linkedInScraper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - requests
+  - json
+  - beautifulsoup4
+  # - selenium
+  # - webdriver-manager
+  # - pandas
+  # - lxml
+  # - tqdm
+  - pip
+  - pip:
+      # - linkedin-api~=2.0.0a
+
+# To create and activate this environment, run:
+# conda env create -f environment.yml
+# conda activate linkedInScraper
+
