@@ -13,6 +13,8 @@ dependencies:
   - black
   - pip
   - pandas
+  - python-dotenv
+  - py-mon
 
 # To create and activate this environment, run:
 # conda env create -f environment.yml

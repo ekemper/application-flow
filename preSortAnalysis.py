@@ -1,21 +1,25 @@
 import pandas as pd
+import os
 
-df = pd.read_json('preScoredJobDetails_sans_raw_html.json', lines=True)
+file_path = 'jobDetails.json'
 
-subset_columns = ['company_name', 'job_title', 'job_description']
-# Drop rows with missing values in the relevant columns
-df = df.dropna(subset=subset_columns)
+# Check if the file exists and is not empty
+if not os.path.exists(file_path) or os.stat(file_path).st_size == 0:
+    print(f"Error: '{file_path}' does not exist or is empty.")
+else:
+    try:
+        # Attempt to read the JSON file
+        df = pd.read_json(file_path)
+        print(len(df))
 
-# Identify duplicates based on 'company name', 'job title', and 'job description'
-duplicates = df[df.duplicated(subset=subset_columns, keep='first')]
+        subset_columns = ['job_id', 'title']
 
-# Count the number of duplicates
-num_duplicates = len(duplicates)
-print(f"Number of duplicate entries: {num_duplicates}")
+        # Identify duplicates based on 'job_id' and 'title'
+        duplicates = df[df.duplicated(subset=subset_columns, keep='first')]
 
-# Store duplicates in a separate DataFrame or object
-if num_duplicates > 0:
-    print("Duplicate entries:")
-    print(duplicates)
-# Save the updated DataFrame back to a JSON file if needed
-# df.to_json('.json', orient='records', lines=True)
+        # Count the number of duplicates
+        num_duplicates = len(duplicates)
+        print(f"Number of duplicate entries: {num_duplicates}")
+
+    except ValueError as e:
+        print(f"Error reading JSON file: {e}")
