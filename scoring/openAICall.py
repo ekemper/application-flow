@@ -37,7 +37,7 @@ def parse_total_score_from_md(content):
 
 if __name__ == "__main__":
     import json
-    from appendToJsonFile import append
+    from scoring.appendToJsonFile import append
 
     with open("jobDetails_Technical_Project_Manager.json") as file:
         jobDetailList = json.load(file)

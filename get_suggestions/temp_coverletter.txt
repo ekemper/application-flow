@@ -1,0 +1,21 @@
+
+Dear Hiring Manager,
+
+I’m excited to apply for the Technical Project Manager role. With over a decade of experience in engineering and project leadership, I bring a unique blend of technical fluency, stakeholder engagement, and Agile delivery that aligns strongly with Truelogic’s mission.
+
+At Storyblocks, I led a multiphase initiative to launch an enterprise free trial platform. I partnered with product, design, and sales to define technical deliverables, manage timelines, and reduce risk. Acting as a de facto Scrum Master, I facilitated sprint ceremonies and helped the team achieve a 15% increase in velocity. This effort improved time-to-close on B2B contracts worth over $50K and demonstrated my ability to connect cross-functional teams and deliver measurable outcomes.
+
+In prior roles, I’ve worked across a variety of content and CMS systems. At Sparkplug, I optimized vendor workflows via third-party integrations and relational data modeling. At Medical Solutions, I built a REST API MVP with automated testing and documentation, collaborating across QA and product teams to reduce post-release defects. Across these roles, I regularly used Jira and Confluence to manage backlogs, write tickets, and run project dashboards.
+
+Earlier in my career, I built a scientific measurement platform while managing multi-stakeholder expectations across scientific and engineering disciplines. This experience honed my skills in stakeholder communication and technical planning—skills I’ve carried throughout my career.
+
+I’m passionate about helping teams execute with clarity, empathy, and technical precision. I bring strong experience in SDLC practices, CMS platforms like WordPress, and Agile frameworks. I’m eager to contribute to transformative projects with a team that values cross-functional collaboration and growth.
+
+Thank you for considering my application. I look forward to the opportunity to support your clients and drive meaningful impact.
+
+Cheers,
+Eddie Kemper
+
+Edward Kemper
+edwardkemper@gmail.com | (928) 514-7342 | Golden, CO
+[linkedin.com/in/edward-kemper-65929934](http://linkedin.com/in/edward-kemper-65929934)

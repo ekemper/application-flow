@@ -1,4 +1,4 @@
-name: linkedInScraper
+name: application-flow
 channels:
   - conda-forge
   - defaults
@@ -14,7 +14,14 @@ dependencies:
   - pip
   - pandas
   - python-dotenv
-  - py-mon
+  # - py-mon
+  - pip
+  - watchdog
+  
+  - pip:
+      - pdfplumber
+      - reportlab
+      - pdfkit
 
 # To create and activate this environment, run:
 # conda env create -f environment.yml
@@ -22,5 +29,4 @@ dependencies:
 
 # to update env file after adding a package, best to deactivate then update...
 # conda env update --file environment.yml --prune
-
 
