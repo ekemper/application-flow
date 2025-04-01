@@ -73,20 +73,21 @@ def fetch_google_jobs(query, num_pages=1):
     return results
 
 if __name__ == "__main__":
-    
-    query = "Technical Program Manager"
+
+    query = "Technical Project Manager"
     jobs = fetch_google_jobs(query, num_pages=50)
-    file_path = 'jobDetails.json'
+    file_path = "jobDetails_Technical_Project_Manager.json"
 
     try:
-        # Attempt to serialize the Python object to JSON
         json_data = json.dumps(jobs, indent=4)
-        
-        # Write the serialized JSON to the file
+
         with open(file_path, 'w') as f:
             f.write(json_data)
+            
         print(f"Data successfully written to {file_path}")
+        
     except (TypeError, ValueError) as e:
         print(f"Error serializing data to JSON: {e}")
+        
     except Exception as e:
         print(f"Unexpected error: {type(e).__name__} - {e}")

@@ -18,6 +18,6 @@ print(scores)
 
 
 df = pd.DataFrame({"title": titles, "Scores": scores, "Share Link": shareLink})
-df_sorted = df.sort_values("score", ascending=False)
+df_sorted = df.sort_values("Scores", ascending=False)
 print(df)
 df_sorted.to_json("sorted.json", orient="records")
