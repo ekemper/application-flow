@@ -1,0 +1,34 @@
+Technical Program Manager - Software
+Mountain View, CA, Boston, MA
+Lightmatter is leading the revolution in AI data center infrastructure, enabling the next giant leaps in human progress. The company invented the world’s first 3D-stacked photonics engine, Passage™, capable of connecting thousands to millions of processors at the speed of light in extreme-scale data centers for the most advanced AI and HPC workloads.
+
+Lightmatter raised $400 million in its Series D round, reaching a valuation of $4.4 billion. We will continue to accelerate the development of data center photonics and grow every department at Lightmatter!
+
+If you're passionate about tackling complex challenges, making an impact, and being an expert in your craft, join our team of brilliant scientists, engineers, and accomplished industry leaders.
+
+Lightmatter is (re)inventing the future of computing with light!
+
+About this Role
+We are hiring a Technical Program Manager to help coordinate the engineering effort behind Lightmatter’s AI and Chiplet Interconnect products. You will lead program management for Lightmatter’s software development teams, collaborating with the hardware engineering counterpart on schedules for the product deliverables. You will gather requirements, driving quality initiatives, managing technical risks, and planning for all phases of software development. In addition, you’ll partner with executives and engineering leadership to develop and manage milestones, resources and schedules, for the many moving parts that need to come together.
+
+Responsibilities
+Organize and drive planning, scheduling, and day-to-day execution to support Lightmatter’s software development
+Collaborate with leads and engineering teams in effectively estimating and prioritizing tasks in order to maintain excellent quality on a realistic delivery schedule
+Manage project schedules and quality, identify possible issues and risks, and clearly communicate them to project stakeholders
+Facilitate recurring project meetings and operational checkpoint activities throughout the life cycle of projects
+Set clear and targeted communication to management of project information, including project plan, key dates, and project status
+
+Qualifications
+8+ years of experience in software development life cycles and participation in multiple software releases
+Bachelor’s degree in a technical field
+Experience in software development methodology and processes
+Hands-on experience in software program/project management
+Experience building dashboards for agile development - tracking release metrics
+Experience influencing decisions and leading teams in a matrix environment
+Proven ability to identify and implement process improvements, characterized by a high level of responsiveness, and passion for enhancing operational efficiency
+
+Preferred Qualifications
+Experience with managing software development associated with silicon products - drivers, firmware and board-development-kit releases
+Experience setting up project management initiatives from scratch in either a startup or a new business unit environment
+Expert user of program management tools such as MS-Project, Asana, Smartsheet or similar
+Experience in scripting Python or another scripting language
