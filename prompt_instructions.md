@@ -54,7 +54,7 @@ RESUME INSTRUCTIONS
 
     In the core competencies or technical skills sections, add additional keyword <li>s in red for improved ATS matching.
 
-    Name the file using the format: resume-proto-{company_name}-{position_name}.html
+    Using the original as a base, with suggested improvements inserted in red as new <li style="color: red;"> items and annotated with HTML comments. This output document MUST contain all the original content from the original resume with new bullets appended to each section.
 
 
 COVER LETTER INSTRUCTIONS
@@ -81,12 +81,12 @@ COVER LETTER INSTRUCTIONS
         Prioritize clarity, quantifiable achievements, and job-specific phrasing.
 
 OUTPUT FORMAT
-    Return your response as three separate documents:
+    Return your response as a pure JSON object with the following structure:
 
-    "resume"
-        A full HTML version of the resume, using the original as a base, with suggested improvements inserted in red as new <li> items and annotated with HTML comments. This output document MUST contain all the original content from the original resume with new bullets appended to each section. 
+    {
+        "resume": "A full HTML version of the resume with suggestions", 
+        "cover_letter": "A revised plain text version of the cover letter, reflecting all suggested changes."
+    }
 
-    "cover_letter"
-        A revised plain text version of the cover letter, reflecting all suggested changes.
-
+    The output MUST NOT CONTAIN any markdown syntax such as ```json. The output needs to be PURE JSON!
 
